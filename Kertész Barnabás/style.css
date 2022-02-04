@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-image: url(img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 0px 0px 20px 20px;
+}
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+}
+.nav  {
+    border: 21px solid transparent;
+}
+.nav ul {
+    list-style: none;
+    background: wheat;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    max-width: 700px;
+    border-radius: 15px;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 15px;
+    text-align: center;
+}
+.nav a::after {
+    content: '';
+    background: black;
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    transition-duration: 0.5s;
+}
+.nav a:hover::after {
+    width: 100%;
+}
+section {
+    display: block;
+}
+.body {
+    padding: 20px;
+    text-align: center;
+}
+.body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.body a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.hir {
+    flex: 33.33%;
+    padding: 5px;
+}
+.hirsec {
+    display: flex;
+}
+.hir img {
+    transition-duration: 0.5s;
+}
+.hir img:hover {
+    transform: translateY(-20px);
+}
+.hirek {
+    width: 500px;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+.hirek h4 {
+    transition-duration: 0.5s;
+}
+.hirek:hover h4 {
+    opacity: 0.5;
+}
+.body h1 {
+    padding: 10px;
+}
